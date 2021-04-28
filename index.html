@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>覺得厲害</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Tracking app</title>
+</head>
+<body>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    
+    <script>
+        function handlePermission() {
+  navigator.permissions.query({name:'geolocation'}).then(function(result) {
+    if (result.state == 'granted') {
+      report(result.state);
+    } else if (result.state == 'prompt') {
+      report(result.state);
+      navigator.geolocation.getCurrentPosition(revealPosition,positionDenied,geoSettings);
+    } else if (result.state == 'denied') {
+      report(result.state);
+    }
+    result.onchange = function() {
+      report(result.state);
+    }
+  });
+}
+
+function report(state) {
+  console.log('Permission ' + state);
+}
+        const start= document.getElementById('start');
+        const stop = document.getElementById('stop');
+        var coordinate = [];
+        start.addEventListener('click', () =>{
+            handlePermission();
+            navigator.geolocation.watchPosition(data => {
+                coordinate.push([data.coords.longitude, data.coords.latitude]);
+                window.localStorage.setItem("data", JSON.stringify(coordinate));
+            }, (error) => console.log(error))
+        })
+    </script>
+</body>
 </html>
