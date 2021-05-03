@@ -1,9 +1,11 @@
 import mapboxgl from 'https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpbmUtY2hhbmciLCJhIjoiY2tvODhkdGw3MXU2dDJ2bHJrNDZmNHp6ZSJ9.-cSgmT-mTMNGs-to2jNmAw';
-var map = new mapboxgl.Map({
+const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11'
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-122.486052, 37.830348],
+    zoom: 15
 });
 
 map.on('load', function () {
@@ -54,3 +56,4 @@ map.on('load', function () {
         }
     });
 });
+
