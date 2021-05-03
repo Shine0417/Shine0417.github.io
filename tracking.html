@@ -21,35 +21,20 @@
         var id = -1;
         var coordinate = [];
 
-        function start() {
-            setTimeout(
-                navigator.geolocation.getCurrentPosition((data) => {
-                coordinate.push([data.coords.longitude, data.coords.latitude]);
-                window.localStorage.setItem("data", JSON.stringify(coordinate));
-                    if (status.innerText = "Started")
-                        start();
-                }, (error) => console.log(error)
-            ,{
-                enableHighAccuracy: true
-            }), 10)
-        }
-
         startCollect.addEventListener('click', () => {
             status.innerText = "Started";
             status.setAttribute("style", "color: green");
             start();
-            // id = navigator.geolocation.watchPosition((data) => {
-            //     console.log("data: " + data);
-            //     // console.log(new Date());
-            //     coordinate.push([data.coords.longitude, data.coords.latitude]);
-            //     window.localStorage.setItem("data", JSON.stringify(coordinate));
-            // }, (error) => console.log(error)
-            // ,{
-            //     enableHighAccuracy: true
-            // })
+            id = navigator.geolocation.watchPosition((data) => {
+                console.log("data: " + data);
+                // console.log(new Date());
+                coordinate.push([data.coords.longitude, data.coords.latitude]);
+                window.localStorage.setItem("data", JSON.stringify(coordinate));
+            }, (error) => console.log(error)
+            ,{
+                enableHighAccuracy: true
+            })
             // console.log("watch id: "+id);
-
-
         })
 
         stopCollect.addEventListener('click', () => {
