@@ -1,4 +1,4 @@
-import mapboxgl from 'https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'
+import 'https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpbmUtY2hhbmciLCJhIjoiY2tvODhkdGw3MXU2dDJ2bHJrNDZmNHp6ZSJ9.-cSgmT-mTMNGs-to2jNmAw';
 const map = new mapboxgl.Map({
