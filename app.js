@@ -33,7 +33,9 @@ stopCollect.addEventListener('click', () => {
 render.addEventListener('click', renderMap);
 clear.addEventListener('click', () => {
     window.localStorage.clear();
+    coordinate = [];
 })
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpbmUtY2hhbmciLCJhIjoiY2tvODhkdGw3MXU2dDJ2bHJrNDZmNHp6ZSJ9.-cSgmT-mTMNGs-to2jNmAw';
 function renderMap(){
     var map = new mapboxgl.Map({
