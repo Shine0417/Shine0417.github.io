@@ -11,6 +11,8 @@ var coordinate = [];
 startCollect.addEventListener('click', () => {
     status.innerText = "Started";
     status.setAttribute("style", "color: green");
+    if(window.localStorage.getItem('data') != null)
+        coordinate = JSON.parse(window.localStorage.getItem('data'));
     id = navigator.geolocation.watchPosition((data) => {
         console.log("data: " + data);
         coordinate.push([data.coords.longitude, data.coords.latitude]);
