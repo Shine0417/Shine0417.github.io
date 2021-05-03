@@ -5,22 +5,22 @@ const startCollect = document.getElementById('start');
 const stopCollect = document.getElementById('stop');
 const render = document.getElementById('render');
 const status = document.getElementById('status');
+const clear = document.getElementById('clear');
 var id = -1;
 var coordinate = [];
 
 startCollect.addEventListener('click', () => {
     status.innerText = "Started";
     status.setAttribute("style", "color: green");
-    if(window.localStorage.getItem('data') != null)
-        coordinate = JSON.parse(window.localStorage.getItem('data'));
+
     id = navigator.geolocation.watchPosition((data) => {
         console.log("data: " + data);
         coordinate.push([data.coords.longitude, data.coords.latitude]);
         window.localStorage.setItem("data", JSON.stringify(coordinate));
     }, (error) => console.log(error)
-        , {
-            enableHighAccuracy: true
-        })
+, {
+    enableHighAccuracy: true
+})
 })
 
 stopCollect.addEventListener('click', () => {
@@ -31,7 +31,9 @@ stopCollect.addEventListener('click', () => {
 })
 
 render.addEventListener('click', renderMap);
-
+clear.addEventListener('click', () => {
+    window.localStorage.clear();
+})
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpbmUtY2hhbmciLCJhIjoiY2tvODhkdGw3MXU2dDJ2bHJrNDZmNHp6ZSJ9.-cSgmT-mTMNGs-to2jNmAw';
 function renderMap(){
     var map = new mapboxgl.Map({
