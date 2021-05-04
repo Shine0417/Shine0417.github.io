@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name> Location history from 2021-04-30 to 2021-04-30 </name>
+        <open>1</open>
+        <description></description>
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>241新北市三重區重陽路一段111-2號</name>
+            <address>241新北市三重區重陽路一段111-2號</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>  from 2021-04-29T13:51:41.648Z to 2021-04-30T00:29:42.000Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.48707499999999,25.059655,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-29T13:51:41.648Z</begin>
+                <end>2021-04-30T00:29:42.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a bus</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a bus</value>
+                </Data>
+                <Data name="Distance">
+                    <value>615</value>
+                </Data>
+            </ExtendedData>
+            <description> On a bus from 2021-04-30T00:29:42.000Z to 2021-04-30T00:30:45.000Z. Distance 615m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.48707499999999,25.059655,0 121.48707499999999,25.059655,0 121.4866268,25.0620483,0 121.4873388,25.061735,0 121.4879696,25.0615303,0 121.4889047,25.0613789,0 121.4898924,25.0611375,0 121.4898924,25.0611375,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T00:29:42.000Z</begin>
+                <end>2021-04-30T00:30:45.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>206</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2021-04-30T00:30:45.000Z to 2021-04-30T00:31:48.000Z. Distance 206m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.4898924,25.0611375,0 121.4898924,25.0611375,0 121.4903613,25.0603316,0 121.4907987,25.0599023,0 121.4909081,25.0597069,0 121.4909362,25.0596082,0 121.49097505349819,25.059598572764585,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T00:30:45.000Z</begin>
+                <end>2021-04-30T00:31:48.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>菜寮站</name>
+            <address>241新北市三重區</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>地鐵站</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> 地鐵站 from 2021-04-30T00:31:48.000Z to 2021-04-30T00:38:32.561Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.49207919999999,25.060142799999998,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T00:31:48.000Z</begin>
+                <end>2021-04-30T00:38:32.561Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On the subway</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On the subway</value>
+                </Data>
+                <Data name="Distance">
+                    <value>9896</value>
+                </Data>
+            </ExtendedData>
+            <description> On the subway from 2021-04-30T00:38:32.561Z to 2021-04-30T01:13:02.169Z. Distance 9896m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.49097505349819,25.059598572764585,0 121.4912065,25.0595935,0 121.5004328,25.0628815,0 121.5129758,25.0632511,0 121.5192109,25.0627424,0 121.5291527,25.0339585,0 121.522521,25.0269593,0 121.5232011,25.0261599,0 121.5280534,25.020797,0 121.5345473,25.0146304,0 121.5343172,25.0148974,0 121.5340372,25.0152138,0 121.5353102,25.0152907,0 121.5353622,25.0163243,0 121.5365384,25.0191152,0 121.5375783,25.018795500000003,0 121.5375783,25.018795500000003,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T00:38:32.561Z</begin>
+                <end>2021-04-30T01:13:02.169Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>臺灣大學</name>
+            <address>10617台北市大安區羅斯福路四段1號</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>大學</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> 大學 from 2021-04-30T01:13:02.169Z to 2021-04-30T04:08:19.554Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.53975179999999,25.0173405,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T01:13:02.169Z</begin>
+                <end>2021-04-30T04:08:19.554Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Cycling</value>
+                </Data>
+                <Data name="Distance">
+                    <value>1340</value>
+                </Data>
+            </ExtendedData>
+            <description> Cycling from 2021-04-30T04:08:19.554Z to 2021-04-30T04:20:32.748Z. Distance 1340m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.5375783,25.018795500000003,0 121.5375783,25.018795500000003,0 121.5415414,25.019377,0 121.5380878,25.0184097,0 121.5374458,25.0184567,0 121.5368708,25.0183989,0 121.532808,25.0196837,0 121.53286699999998,25.0198093,0 121.53286699999998,25.0198093,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T04:08:19.554Z</begin>
+                <end>2021-04-30T04:20:32.748Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>柒食貳</name>
+            <address>106台北市大安區溫州街72號</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>餐廳</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> 餐廳 from 2021-04-30T04:20:32.748Z to 2021-04-30T04:49:59.883Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.532867,25.0198093,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T04:20:32.748Z</begin>
+                <end>2021-04-30T04:49:59.883Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Cycling</value>
+                </Data>
+                <Data name="Distance">
+                    <value>938</value>
+                </Data>
+            </ExtendedData>
+            <description> Cycling from 2021-04-30T04:49:59.883Z to 2021-04-30T04:56:46.124Z. Distance 938m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.53286699999998,25.0198093,0 121.53286699999998,25.0198093,0 121.5328297,25.0196739,0 121.5344257,25.0183285,0 121.5371271,25.021304,0 121.53665723756205,25.018868399398738,0 121.53665723756205,25.018868399398738,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T04:49:59.883Z</begin>
+                <end>2021-04-30T04:56:46.124Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>臺灣大學</name>
+            <address>10617台北市大安區羅斯福路四段1號</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>大學</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> 大學 from 2021-04-30T04:56:46.124Z to 2021-04-30T08:54:01.092Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.53975179999999,25.0173405,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T04:56:46.124Z</begin>
+                <end>2021-04-30T08:54:01.092Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Cycling</value>
+                </Data>
+                <Data name="Distance">
+                    <value>673</value>
+                </Data>
+            </ExtendedData>
+            <description> Cycling from 2021-04-30T08:54:01.092Z to 2021-04-30T08:58:16.094Z. Distance 673m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.53665723756205,25.018868399398738,0 121.53665723756205,25.018868399398738,0 121.5363493,25.0189549,0 121.5350801,25.0172064,0 121.5353972,25.0152853,0 121.5346957,25.0136817,0 121.5346957,25.0136817,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T08:54:01.092Z</begin>
+                <end>2021-04-30T08:58:16.094Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>公司 (台北公館夜市)</name>
+            <address>100台北市大安區羅斯福路四段90巷</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>夜市</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> 夜市 from 2021-04-30T08:58:16.094Z to 2021-04-30T09:04:50.152Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.5346957,25.0136817,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T08:58:16.094Z</begin>
+                <end>2021-04-30T09:04:50.152Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a bus</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a bus</value>
+                </Data>
+                <Data name="Distance">
+                    <value>2297</value>
+                </Data>
+            </ExtendedData>
+            <description> On a bus from 2021-04-30T09:04:50.152Z to 2021-04-30T09:13:26.250Z. Distance 2297m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.5346957,25.0136817,0 121.5346957,25.0136817,0 121.5346575,25.0142439,0 121.5363684,25.0124491,0 121.5210699,25.0014045,0 121.5210699,25.0014045,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T09:04:50.152Z</begin>
+                <end>2021-04-30T09:13:26.250Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>234新北市永和區永元路17巷25弄5號</name>
+            <address>234新北市永和區永元路17巷25弄5號</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>  from 2021-04-30T09:13:26.250Z to 2021-04-30T12:04:51.125Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.5210699,25.0014045,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T09:13:26.250Z</begin>
+                <end>2021-04-30T12:04:51.125Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a bus</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a bus</value>
+                </Data>
+                <Data name="Distance">
+                    <value>11607</value>
+                </Data>
+            </ExtendedData>
+            <description> On a bus from 2021-04-30T12:04:51.125Z to 2021-04-30T12:43:36.102Z. Distance 11607m </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>121.5210699,25.0014045,0 121.5210699,25.0014045,0 121.5212191,25.0015229,0 121.5218726,25.0026669,0 121.5217952,25.0027142,0 121.521799,25.0027312,0 121.5224677,25.0028332,0 121.5225062,25.0028031,0 121.5225036,25.002811,0 121.5225042,25.002801,0 121.5286147,25.0070921,0 121.537123,25.0110386,0 121.5279728,25.0208435,0 121.5207087,25.0295172,0 121.5191024,25.0400011,0 121.5188123,25.0418479,0 121.5189441,25.0417103,0 121.5189968,25.0432096,0 121.5232205,25.0447631,0 121.5194495,25.0452897,0 121.5191933,25.0447786,0 121.519248,25.0447699,0 121.5138982,25.0473161,0 121.4903035,25.0579865,0 121.4842222,25.0616045,0 121.4834797,25.061739,0 121.4836322,25.0615658,0 121.4842143,25.0615452,0 121.484112,25.0612441,0 121.4842982,25.0612942,0 121.4844757,25.0615533,0 121.4845639,25.0615906,0 121.4847693,25.0616344,0 121.4857767,25.0615371,0 121.4867477,25.0620728,0 121.4867477,25.0620728,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2021-04-30T12:04:51.125Z</begin>
+                <end>2021-04-30T12:43:36.102Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>住家</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>a25151015@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>  from 2021-04-30T12:43:36.102Z to 2021-04-30T23:11:31.954Z. Distance 0m </description>
+            <Point>
+                <coordinates>121.4867477,25.0620728,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2021-04-30T12:43:36.102Z</begin>
+                <end>2021-04-30T23:11:31.954Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
